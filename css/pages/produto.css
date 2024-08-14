@@ -1,7 +1,10 @@
 @import url('../styles.css');
 
 #header.page-produto {
-    background-image: url("../../images/background-produto.jpg") ;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../../images/background-produto.jpg");
+    height: 69vh;
+    
 }
 
 #download {

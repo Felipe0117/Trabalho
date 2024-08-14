@@ -2,6 +2,7 @@
 
 #header.page-home {
     background-image: url("../../images/background-header.jpg") ;
+    height: 81vh;
 }
 
 #customers {

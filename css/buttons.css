@@ -5,7 +5,6 @@
     border-radius: 30px;
     padding: 10px 20px;
     text-decoration: none;
-    transition: ease .5s all;
     border: none;
     cursor: pointer;
 }
@@ -15,9 +14,10 @@
 }
 
 .btn.orange {
-    background-color: #fed136;
+    background-color: rgb(34, 34, 34);
+    border-radius: 30px;
 }
 
 .btn.orange:hover {
-    background-color: black;
+    opacity: 80%;
 }

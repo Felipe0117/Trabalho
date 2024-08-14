@@ -2,6 +2,7 @@
 
 #header.page-equipe {
     background-image: url("../../images/background-equipe.jpg") ;
+    height: 81vh;
 }
 
 #team {
@@ -30,12 +31,39 @@
     margin-bottom: 30px;
 }
 
+@media (max-width: 991px){
+     .description {
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        color: white;
+        padding: 10px;
+        width: 342px;
+        margin-bottom: 50px;
+    }
+
+    .coll{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #team .img-box-round {
+        margin-bottom: 325px;
+    }
+
+    .img-box-label{
+        display: none;
+    }
+}
+
+
 @media (min-width: 992px) {
     .team-member {
         position: relative;
     }
 
-    .team-member:hover .description {
+    .img-box-round:hover .description {
         display: block;
     }
 
