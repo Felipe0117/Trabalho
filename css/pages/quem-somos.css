@@ -2,6 +2,7 @@
 
 #header.page-quem-somos {
     background-image: url("../../images/background-quem-somos.jpg") ;
+    height: 81vh;
 }
 
 #intro h2, #valores h2 {
